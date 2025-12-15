@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import _ from 'lodash'
 
 function App() {
 	const [serverTime, setServerTime] = useState<string | null>(null)
